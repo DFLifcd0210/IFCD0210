@@ -1,0 +1,21 @@
+MF0491_3
+	Programación Web en el Entorno Cliente	180h	4h	
+UF	
+UF1841
+	Elaboración de Documentos Web mediante Lenguajes de Marcas	60h		
+UF	
+UF1842 - Desarrollo y Reutilización de Componentes Software y Multimedia mediante Lenguajes de Guión	90h		
+UF	
+UF1843 - Aplicación de Técnicas de Usabilidad y Accesibilidad en el Entorno del Cliente	30h		
+MF	
+MF0492_3 - Programación Web en el Entorno Servidor	240h	5h	
+UF	
+UF1844 - Desarrollo de Aplicaciones Web en el Entorno Servidor	90h		
+UF	
+UF1845 - Acceso a Datos en Aplicaciones Web del Entorno Servidor	90h		
+UF	
+UF1846 - Desarrollo de Aplicaciones Web Distribuidas	60h		
+MF	
+MF0493_3 - Implantación de Aplicaciones Web en Entornos Internet, Intranet y Extranet	90h	2h	
+MP	
+MP0391 - Módulo de Prácticas Profesionales No Laborales de Desarrollo de Aplicaciones con Tecnologías Web	80h		

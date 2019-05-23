@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Objeto Persona 
+  @Persona 
+  Atributo nombre 
+  Atributo apellidos -->
+<persona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/IFCD0210/MF0491_3%20-%20Cliente/UF1841%20-%20Elaboraci%C3%B3n%20de%20Documentos%20Web%20mediante%20Lenguajes%20de%20Marcas/E2/Prueba.xsd">
+	<nombre>Juan</nombre>
+	<apellidos>Infinito</apellidos>
+</persona>
