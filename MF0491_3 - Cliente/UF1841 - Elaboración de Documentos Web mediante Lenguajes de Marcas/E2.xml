@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Autor: Daniel Febles Llizo
+Fecha de inicio: 22/05/2019-->
+<Ordenador_alta_gama xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/IFCD0210/MF0491_3%20-%20Cliente/UF1841%20-%20Elaboraci%C3%B3n%20de%20Documentos%20Web%20mediante%20Lenguajes%20de%20Marcas/E2/E2.xsd">
+	<Hardware>
+		<Componente tipo="proc&quot;esa&quot;dor">MD Ryzen 3600X
+			<Descripción>8 Núcleos 16 Hilos 4.9GHz.</Descripción>
+		</Componente>
+		<Componente tipo="memoria ram">G.Skill Trident Z RGB 3600C16D
+			<Descripción>2x8Gb módulos. 3600MHz CL16.</Descripción>
+		</Componente>
+		<Componente tipo="tarjeta grafica">MSI RTX 2080 Gaming X
+			<Descripción>8Gb GDDR6. Compatible con RayTracing.</Descripción>
+		</Componente>
+		<Componente tipo="placa base">Asrock X570 Taichi
+			<Descripción>Gran capacidad de Overclocking. 40 PCI Lanes. Wifi y Bluetooth. PCIE 4.0.</Descripción>
+		</Componente>
+		<Componente tipo="discos de almacenamiento">
+			<Disco_primario>Samsung 970 Evo Plus 500Gb</Disco_primario>
+			<Descripción>SSD M.2 NVMe de gran velocidad. Destinado al sistema operativo y programas que se instalen.</Descripción>
+			<Disco_secundario>Samsung 860 Evo 1Tb</Disco_secundario>
+			<Descripción>SSD SATA. Buena velocidad. Destinado al almacenamiento general.</Descripción>
+		</Componente>
+		<Componente tipo="fuente de alimentacion">EVGA SuperNova 750G3
+			<Descripción>750W 80 Plus Gold.</Descripción>
+		</Componente>
+		<Componente tipo="caja">Fractal Design Meshify C
+			<Descripción>Mid Tower sobria y elegante. Cristal templado tintado.</Descripción>
+		</Componente>
+		<Componente tipo="ventilacion">NZXT Kraken x62
+			<Descripción>Refrigeración líquida premontada. Gran rendimiento. 280mm.</Descripción>
+		</Componente>
+	</Hardware>
+	<Componente/>
+</Ordenador_alta_gama>
