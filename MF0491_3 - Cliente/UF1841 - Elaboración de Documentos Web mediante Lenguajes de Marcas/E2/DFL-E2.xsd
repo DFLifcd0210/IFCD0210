@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- W3C Schema generado con XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Componente">
+		<xs:complexType mixed="true">
+			<xs:sequence minOccurs="0">
+				<xs:sequence minOccurs="0">
+					<xs:element ref="Disco_primario"/>
+					<xs:element ref="Descripción"/>
+					<xs:element ref="Disco_secundario"/>
+				</xs:sequence>
+				<xs:element ref="Descripción"/>
+			</xs:sequence>
+			<xs:attribute name="tipo">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="caja"/>
+						<xs:enumeration value="discos de almacenamiento"/>
+						<xs:enumeration value="fuente de alimentacion"/>
+						<xs:enumeration value="memoria ram"/>
+						<xs:enumeration value="placa base"/>
+						<xs:enumeration value="procesador"/>
+						<xs:enumeration value="tarjeta grafica"/>
+						<xs:enumeration value="ventilacion"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="marca">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="AMD"/>
+						<xs:enumeration value="Asrock"/>
+						<xs:enumeration value="Asus"/>
+						<xs:enumeration value="EVGA"/>
+						<xs:enumeration value="Fractal Design"/>
+						<xs:enumeration value="G.Skill"/>
+						<xs:enumeration value="NZXT"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Descripción" type="xs:string"/>
+	<xs:element name="Disco_primario">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="ST_Disco_primario">
+					<xs:attribute name="marca" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="Samsung"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Disco_secundario">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="ST_Disco_secundario">
+					<xs:attribute name="marca" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="Samsung"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Hardware">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element ref="Componente" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Introducción" type="xs:string"/>
+	<xs:element name="Ordenador_alta_gama">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Titulo"/>
+				<xs:element ref="Introducción"/>
+				<xs:element ref="Hardware"/>
+				<xs:element ref="Componente"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Titulo">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="ORDENADOR POR PIEZAS"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:simpleType name="ST_Disco_primario">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="970 Evo Plus 500Gb"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ST_Disco_secundario">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="860 Evo 1Tb"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

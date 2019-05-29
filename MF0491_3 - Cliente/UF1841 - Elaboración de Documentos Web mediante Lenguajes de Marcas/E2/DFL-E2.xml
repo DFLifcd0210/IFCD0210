@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Autor: Daniel Febles Llizo
+Fecha de inicio: 22/05/2019
+Software utilizado: Altova XMLSpy
+Temática: Ordenador por piezas.-->
+<Ordenador_alta_gama xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/Alumnos/Documents/IFCD0210/MF0491_3%20-%20Cliente/UF1841%20-%20Elaboraci%C3%B3n%20de%20Documentos%20Web%20mediante%20Lenguajes%20de%20Marcas/E2/DFL-E2.xsd">
+	<Titulo>ORDENADOR POR PIEZAS</Titulo>
+	<Introducción>En esta página web podrá encontrar una posible composición de un ordenador por piezas, indicando los componentes que lo forman y alguna de sus características.
+	
+	Es una combinación equilibrada y con piezas de buena calidad y diseño, por lo que si decide guiarse por este ejemplo a la hora de montarlo, debe saber que hay opciones más baratas.
+	
+	Puede considerarse un ordenador para uso doméstico de gama alta, con el que obtendrá un rendimiento notorio ya sea a la hora de trabajar con programas de alta exigencia de procesamiento puro o gráfico, o a la hora de jugar videojuegos actuales.</Introducción>
+	<Hardware> Componentes:
+		<Componente tipo="procesador" marca="AMD">Ryzen 7 3700X
+			<Descripción>8 Núcleos 16 Hilos 4.40GHz.</Descripción>
+		</Componente>
+		<Componente tipo="memoria ram" marca="G.Skill">Trident Z RGB 3600C16D
+			<Descripción>2x8Gb módulos. 3600MHz CL16.</Descripción>
+		</Componente>
+		<Componente tipo="tarjeta grafica" marca="Asus">Rog Strix RTX 2080
+			<Descripción>8Gb GDDR6. 2944 núcleos CUDA Compatible con RayTracing.</Descripción>
+		</Componente>
+		<Componente tipo="placa base" marca="Asrock">X570 Taichi
+			<Descripción>DDR4 hasta 4666 MHz. 3x ranuras PCIE 4.0. 3x puertos Hyper M2 @ 64 GB/s. Wifi + Bluetooth.</Descripción>
+		</Componente>
+		<Componente tipo="discos de almacenamiento">
+			<Disco_primario marca="Samsung">970 Evo Plus 500Gb</Disco_primario>
+			<Descripción>Escritura secuencial 3.200 MB/s Lectura secuencial 3.500 MB/s. Destinado al sistema operativo y programas.</Descripción>
+			<Disco_secundario marca="Samsung">860 Evo 1Tb</Disco_secundario>
+			<Descripción>Escritura secuencial 520 MB/s Lectura secuencial 550 MB/s. Destinado al almacenamiento general.</Descripción>
+		</Componente>
+		<Componente tipo="fuente de alimentacion" marca="EVGA">SuperNova 750G3
+			<Descripción>750W 80 Plus Gold.</Descripción>
+		</Componente>
+		<Componente tipo="caja" marca="Fractal Design">Meshify C
+			<Descripción>Mid Tower ATX sobria y elegante. Cristal templado tintado.</Descripción>
+		</Componente>
+		<Componente tipo="ventilacion" marca="NZXT">Kraken x62
+			<Descripción>Refrigeración líquida premontada. Gran rendimiento. 280mm.</Descripción>
+		</Componente>
+	</Hardware>
+	<Componente/>
+</Ordenador_alta_gama>
