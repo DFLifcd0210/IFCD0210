@@ -5,27 +5,42 @@ Fecha de inicio: 31/05/2019
 Software utilizado: Sublime Text 3
 Temática: Etiquetas HTML5-->
 <head>
-	<title><u><b>Prueba 1 de <sup>html5</sup></b></u></title> <!-- En los títulos no sirven etiquetas de formato de texto como <b>-->
-<body style="background: -webkit-linear-gradient(#A9C5EB, #CB59E8); 
+	<title><u><b>Prueba 1 de <sup>html5</sup></b></u></title> <!-- En los títulos no sirven etiquetas de formato de texto como <b> o <u>-->
+		<style>
+		body {
+            column-count:3;
+	        column-gap: 3em;
+	        column-rule: 1px solid #bbb;
+
+        }
+		h1 {
+            column-span:all;
+        }
+    </style>
+</head>
+	<body style="background: -webkit-linear-gradient(#A9C5EB, #CB59E8); 
     background: -o-linear-gradient(#A9C5EB, #CB59E8); 
     background: -moz-linear-gradient(#A9C5EB, #CB59E8); 
     background: linear-gradient(#A9C5EB, #CB59E8);"><!--Mediante CSS se puede poner un color de fondo usando el comando style="background color: ;", además se puede crear un degradado, que dependiendo del motor del navegador, puede ser uno de los aquí puestos.-->
-<p><center><font face="impact" size="7" color="#fe001a"><u><b>Etiquetas de elementos de formato de texto:</b></u></font></center></p>
+
+	
+
+<h1><center><font face="impact" size="7" color="#fe001a"><u><b>Etiquetas de elementos de formato de texto:</b></u></font></center></h1></inventado>
 <!--Mediante la etiqueta <center> se puede centrar una linea de texto. Ademas en la etiqueta font se pueden definir distintos elementos como el tipo de fuente, tamaño (desde el 1 al 7) y color-->
-<font face="comic sans ms" size="4" color="#F9FFFB">
-	<center><p>Tipo normal</p>
-	<p><b>Tipo 1 (negrita)</b></p>
-	<p><strong>Tipo 2 (realzado)</strong></p>
-	<p><I>Tipo 3 (itálica)</I></p>
-	<p><em>Tipo 4 (énfasis)</em></p>
-	<p><code>Tipo 5 (código)</code></p>
-	<p><u>Tipo 6 (subrayado)</u></p>
-	<p><strike>Tipo 7 (tachado)</strike></p>
-	<p><address>Tipo 8 (dirección)</address></p>
-	<p>Tipo <sup>9 (superíndice)</sup></p>
-	<p>Tipo <sub>10 (subíndice)</sub></p>
-	<p><big>Tipo 11 (grande)</big></p>
-	<p><small>Tipo 12 (pequeño)</small></p></center>
+	<center><font face="comic sans ms" size="4" color="#F9FFFB">
+	<p>Tipo normal     <font face="verdana">Tipo normal</font>     <font face="arial">Tipo normal</font></p>     <font face="times new roman">Tipo normal</font> <!--Texto sin modificar-->
+	<p><b>Tipo 1 (negrita)</b></p> <!--Texto en negrita-->
+	<p><strong>Tipo 2 (realzado)</strong></p> <!--Texto realzado-->
+	<p><I>Tipo 3 (itálica)</I></p> <!--Texto en itálica-->
+	<p><em>Tipo 4 (énfasis)</em></p> <!--Texto con énfasis-->
+	<p><code>Tipo 5 (código)</code></p><!--Texto ejemplo de código-->
+	<p><u>Tipo 6 (subrayado)</u></p><!--Texto subrayado-->
+	<p><strike>Tipo 7 (tachado)</strike></p><!--Texto tachado-->
+	<p><address>Tipo 8 (dirección)</address></p><!--Texto de dirección-->
+	<p>Tipo <sup>9 (superíndice)</sup></p><!--Texto superíndice-->
+	<p>Tipo <sub>10 (subíndice)</sub></p><!--Texto subíndice-->
+	<p><big>Tipo 11 (grande)</big></p><!--Texto grande-->
+	<p><small>Tipo 12 (pequeño)</small></p></center><!--Texto pequeño-->
 
 </font>
 </body>
