@@ -1,0 +1,9 @@
+<!ELEMENT root (Componente+)>
+<!ELEMENT Componente (nombre, marca, descripcion, precio, foto)>
+<!ATTLIST Componente
+          tipo CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT foto (#PCDATA)>

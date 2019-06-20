@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="estilo.xsl"?>
+<!--Autor: Daniel Febles Llizo
+Fecha de inicio: 22/05/2019
+Software utilizado: Altova XMLSpy
+Temática: Ordenador por piezas.-->
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/Alumnos/Documents/IFCD0210/MF0491_3%20-%20Cliente/UF1841%20-%20Elaboraci%C3%B3n%20de%20Documentos%20Web%20mediante%20Lenguajes%20de%20Marcas/E2/DFL_E2.xsd">
+		
+<!--Procesadores:-->
+		<Componente tipo="procesador">
+			<nombre>Ryzen 7 3700X</nombre>
+			<marca>AMD</marca>
+			<descripcion>8 núcleos 16 hilos 4.40GHz.</descripcion>
+			<precio>345€</precio>
+			<foto>R7-3700x.jpg</foto>
+		</Componente>
+
+		<Componente tipo="procesador">
+			<nombre>Ryzen 5 3600x</nombre>
+			<marca>AMD</marca>
+			<descripcion>6 núcleos 12 hilos 4.20GHz.</descripcion>
+			<precio>255€</precio>
+			<foto>R5-3600x.jpg</foto>
+		</Componente>
+
+		<Componente tipo="procesador">	
+			<nombre>Core i9-9900k</nombre>
+			<marca>Intel</marca>
+			<descripcion>8 núcleos 16 hilos 4.70GHz.</descripcion>
+			<precio>490€</precio>
+			<foto>I9-9900k.jpg</foto>
+		</Componente>
+
+		<Componente tipo="procesador">			
+			<nombre>Core i7-9700K</nombre>
+			<marca>Intel</marca>
+			<descripcion>8 núcleos 8 hilos 4.60GHz.</descripcion>
+			<precio>390€</precio>
+			<foto>I7-9700k.jpg</foto>
+		</Componente>
+
+<!--Memorias Ram:-->
+		<Componente tipo="memoria_ram">
+			<nombre>Trident Z RGB 3600C16D</nombre>
+			<marca>G.Skill</marca>
+			<descripcion>DDR4 2x8Gb módulos. 3600MHz CL16.</descripcion>
+			<precio>195€</precio>
+			<foto>GS-TZ36.jpg</foto>
+		</Componente>
+
+		<Componente tipo="memoria_ram">
+			<nombre>Trident Z RGB 3200C16D</nombre>
+			<marca>G.Skill</marca>
+			<descripcion>DDR4 2x8Gb módulos. 3200MHz CL16.</descripcion>
+			<precio>115€</precio>
+			<foto>GS-TZ32.jpg</foto>
+		</Componente>
+
+		<Componente tipo="memoria_ram">
+			<nombre>Vengeance LPX 3000 CL15</nombre>
+			<marca>Corsair</marca>
+			<descripcion>DDR4 2x8Gb módulos. 3000MHz CL15.</descripcion>
+			<precio>87€</precio>
+			<foto>C-V30.jpg</foto>
+		</Componente>
+
+<!--Tarjetas Gráficas:-->
+		<Componente tipo="tarjeta_grafica">
+			<nombre>Radeon RX 580 Gaming 8Gb</nombre>
+			<marca>Gigabyte</marca>
+			<descripcion>AMD 8Gb GDDR5. 1355MHz.</descripcion>
+			<precio>200€</precio>
+			<foto>G-rx580.jpg</foto>
+		</Componente>
+
+		<Componente tipo="tarjeta_grafica">
+			<nombre>GeForce RTX 2060 Gaming Z</nombre>
+			<marca>MSI</marca>
+			<descripcion>Nvidia 6Gb GDDR6. 1830MHz Compatible con RayTracing.</descripcion>
+			<precio>415€</precio>
+			<foto>M-rtx2060.jpg</foto>
+		</Componente>
+
+		<Componente tipo="tarjeta_grafica">
+			<nombre>Rog Strix GeForce RTX 2080</nombre>
+			<marca>Asus</marca>
+			<descripcion>Nvidia 8Gb GDDR6. 1815MHz Compatible con RayTracing.</descripcion>
+			<precio>880€</precio>
+			<foto>A-rtx2080.jpg</foto>
+		</Componente>
+
+		<Componente tipo="tarjeta_grafica">
+			<nombre>Aorus GeForce RTX 2080 Ti</nombre>
+			<marca>Gigabyte</marca>
+			<descripcion>Nvidia 11Gb GDDR6. 1695MHz Compatible con RayTracing.</descripcion>
+			<precio>1260€</precio>
+			<foto>G-rtx2080ti.jpg</foto>
+		</Componente>
+
+<!--Discos de almacenamiento:-->
+		<Componente tipo="disco">
+			<nombre>Blue 2Tb</nombre>
+			<marca>Western Digital</marca>
+			<descripcion>Velocidad de transferencia 147 MB/s. Almacenamiento económico.</descripcion>
+			<precio>68€</precio>
+			<foto>WD-2B.jpg</foto>
+		</Componente>
+
+		<Componente tipo="disco">
+			<nombre>Red 4Tb</nombre>
+			<marca>Western Digital</marca>
+			<descripcion>Velocidad de transferencia 150 MB/s. Gran capacidad de almacenamiento y confiable.</descripcion>
+			<precio>135€</precio>
+			<foto>WD-4R.jpg</foto>
+		</Componente>
+
+		<Componente tipo="disco">
+			<nombre>860 Evo 1Tb</nombre>
+			<marca>Samsung</marca>
+			<descripcion>Escritura secuencial 520 MB/s Lectura secuencial 550 MB/s. Almacenamiento general de buena velocidad.</descripcion>
+			<precio>140€</precio>
+			<foto>S-860.jpg</foto>
+		</Componente>
+
+		<Componente tipo="disco">
+			<nombre>970 Evo Plus 500Gb</nombre>
+			<marca>Samsung</marca>
+			<descripcion>Escritura secuencial 3.200 MB/s Lectura secuencial 3.500 MB/s. Destinado al sistema operativo y programas.</descripcion>
+			<precio>115€</precio>
+			<foto>S-970.jpg</foto>
+		</Componente>
+</root>
