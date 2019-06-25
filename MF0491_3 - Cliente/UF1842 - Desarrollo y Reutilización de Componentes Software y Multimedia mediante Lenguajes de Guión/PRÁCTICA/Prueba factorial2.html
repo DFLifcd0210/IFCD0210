@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE>FACTORIAL</TITLE>
+	</HEAD>
+	<BODY onload="factorial();">
+		<SCRIPT type="text/javascript">
+			//Este codigo ha sido generado por el modulo psexport 20180802-w32 de PSeInt.
+			//Es posible que el codigo generado no sea completamente correcto. Si encuentra
+			//errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+
+			function factorial() {
+				var p;
+				var n = new Number();
+				var num = new Number();
+				var tot = new Number();
+				p = "S";
+				do {
+					document.write("Escriba el número del cual desee obtener el factorial:",'<BR/>');
+					num = Number(prompt());
+					n = 1;
+					tot = 1;
+					for (n=1;n<=num;n++) {
+						tot = tot*n;
+					}
+					document.write("El resultado es ",tot,'<BR/>');
+					document.write("¿Desea calcular otro factorial?(s/n)",'<BR/>');
+					p = prompt();
+				} while (p!="n");
+			}
+			
+		</SCRIPT>
+	</BODY>
+</HTML>
