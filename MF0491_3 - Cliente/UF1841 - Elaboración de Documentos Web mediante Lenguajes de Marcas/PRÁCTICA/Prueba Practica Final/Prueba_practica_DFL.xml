@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Autor: Daniel Febles Llizo
+- Prueba objetiva practica final -
+           UF1841-->
+<Datos_SS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/Entorno%20Alumno/Desktop/Prueba%20Practica/Prueba_practica_DFL.xsd">
+	<Estrella>Sol</Estrella>
+	<Planetas_interiores>
+		<Planeta>Mercurio</Planeta>
+		<Planeta>Venus</Planeta>
+		<Planeta>Tierra
+			<Satelite>Luna</Satelite>
+		</Planeta>
+		<Planeta>Marte</Planeta>
+	</Planetas_interiores>
+	<Planetas_exteriores>
+		<Planeta>Júpiter
+			<Satelite>Ganímedes</Satelite>
+			<Satelite>Calisto</Satelite>
+			<Satelite>Io</Satelite>
+			<Satelite>Europa</Satelite>
+		</Planeta>
+		<Planeta>Saturno
+			<Satelite>Titán</Satelite>
+			<Satelite>Rea</Satelite>
+		</Planeta>
+		<Planeta>Urano
+			<Satelite>Titania</Satelite>
+			<Satelite>Oberón</Satelite>
+		</Planeta>
+		<Planeta>Neptuno
+			<Satelite>Tritón</Satelite>
+		</Planeta>
+	</Planetas_exteriores>
+</Datos_SS>

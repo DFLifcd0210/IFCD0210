@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- DTD generado con XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) -->
+<!ELEMENT Planeta (#PCDATA | Satelite)*>
+<!ELEMENT Datos_SS (Estrella, Planetas_interiores, Planetas_exteriores)>
+<!ATTLIST Datos_SS
+	xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+	xmlns:xsi CDATA #FIXED "http://www.w3.org/2001/XMLSchema-instance"
+>
+<!ELEMENT Estrella (#PCDATA)>
+<!ELEMENT Satelite (#PCDATA)>
+<!ELEMENT Planetas_exteriores (Planeta+)>
+<!ELEMENT Planetas_interiores (Planeta+)>

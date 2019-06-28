@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--Autor: Daniel Febles Llizo
+- Prueba objetiva practica final -
+           UF1841-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+
+<head>
+	<title>El Sistema Solar</title>
+	<meta charset="UTF-8"></meta>
+	<meta name="keywords" content="sistema, solar, planetas, satelites">
+	<meta name="description" content="Pagina web con información acerca de la estructura del sistema solar">
+	<link rel="stylesheet" type="text/css" href="./css/style.css"></link>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+		body {
+			background: -webkit-linear-gradient(#A9C5EB, #CB59E8); 
+   			background: -o-linear-gradient(#A9C5EB, #CB59E8); 
+    		background: -moz-linear-gradient(#A9C5EB, #CB59E8); 
+    		background: linear-gradient(#A9C5EB, #CB59E8);
+    		font-family: Montserrat;
+    	}
+    	#contenido {
+    		background: #e4feeb;
+    		border-radius: 36px 36px 36px 36px;
+			-moz-border-radius: 36px 36px 36px 36px;
+			-webkit-border-radius: 36px 36px 36px 36px;
+			border: 5px solid #FFFFFF;
+			margin: 50px;
+    	}
+    	h1 {
+    		color: white;
+    		text-align: center;
+			font-family:  Montserrat;
+			font-size: 4em;
+			font-weight: bold;
+    	}
+		h2 {
+			text-align: center;
+			font-family:  Montserrat;
+			font-size: 3em;
+			font-weight: bold;
+			}
+		h3 {
+			text-align: center;
+			font-family:  Montserrat;
+			font-size: 1em;
+			}
+		header img {
+			position: fixed;
+			top: 10px; left: 20px;
+			background: #FFFFFF;
+			max-width: 10%;
+			
+			border-radius: 13px;
+			-moz-border-radius: 13px;
+			-webkit-border-radius: 13px;
+			border: 2px solid #000000;
+			padding: 10px;
+			margin: 5px;
+			}
+		td img {
+			max-width: 280px;
+			margin: 10px;
+			}
+		table {
+			text-align: center;
+			margin: 0 auto;
+		}
+		#Satelite {
+			max-width: 140px;
+			margin: 10px;
+		}
+
+	</style>
+
+<body>
+	<header><img src="./imgs/NASA.png"/><h1>Sistema Solar</h1></header>
+
+	<div id="contenido"><h2>Estructura del Sistema Solar: Planetas y satélites</h2><hr/><br/><h3>En Esta página podrás encontrar información acerca del Sistema Solar y de los planetas y satélites más importantes que lo forman (hemos seleccionado los 10 más grandes de todo el sistema).<br/><br/>
+
+	Como Plutón ya no es considerado un planeta, el sistema solar está compuesto por el Sol, ocho planetas, un planetoide y sus satélites. No sólo están estos cuerpos, sino que también existen asteroides, cometas, meteoritos, polvo y gas interplanetario.<br/><br/>
+
+	A continuación, podrás observar en una tabla los planetas y satélites que encontramos en el sistema solar, pudiendo hacer click tanto en los botones como en las fotos de los satélites para acceder a más información.<br/><br/><hr/><br/>
+</h3>
+
+<TABLE BORDER>
+	<TR>
+		<TH COLSPAN=2>Cuerpo Celeste</TH>
+	    	<TH>Satélites</TH>
+	    	<TH>Información</TH>
+	</TR>
+	<TR>
+		<TD><Estrella>El Sol</Estrella></TD> <TD><img src="./imgs/Sol.jpg"/></TD> <TD></TD> <TD><a type="button" class="btn btn-primary" href="https://es.wikipedia.org/wiki/Sol" target="blank">    Sol    </button></TD> 
+	</TR>
+	<Planetas_interiores><TR>	
+		<TD><Planeta>Mercurio<Planeta></TD> <TD><img src="./imgs/Mercurio.jpg"/></TD> <TD></TD> <TD><a type="button" class="btn btn-secondary" href="https://es.wikipedia.org/wiki/Mercurio_(planeta)" target="blank"> Mercurio </button></TD> 
+	</TR>
+	<TR>	
+		<TD><Planeta>Venus<Planeta></TD> <TD><img src="./imgs/Venus.jpg"/></TD> <TD></TD> <TD><a type="button" class="btn btn-success" href="https://es.wikipedia.org/wiki/Venus_(planeta)" target="blank">   Venus   </button></TD> 
+	</TR>
+	<TR>	
+		<TD><Planeta>Tierra<Planeta></TD> <TD><img src="./imgs/Tierra.jpg"/></TD> <TD>Luna<br/><a href="https://es.wikipedia.org/wiki/Luna" target="blank"><img id="Satelite" src="./imgs/Luna.jpg"></a></TD> <TD><a type="button" class="btn btn-danger" href="https://es.wikipedia.org/wiki/Tierra" target="blank">  Tierra  </button></TD> 
+	</TR>
+	<TR>	
+		<TD><Planeta>Marte<Planeta></TD> <TD><img src="./imgs/Marte.jpg"/></TD> <TD></TD> <TD><a type="button" class="btn btn-warning" href="https://es.wikipedia.org/wiki/Marte_(planeta)" target="blank">   Marte   </button></TD> 
+	</TR></Planetas_interiores>
+	<Planetas_exteriores><TR>	
+		<TD><Planeta>Júpiter<Planeta></TD> <TD><img src="./imgs/Jupiter.jpg"/></TD> <TD>Ganímedes<br/><a href="https://es.wikipedia.org/wiki/Ganimedes_(sat%C3%A9lite)" target="blank"><img id="Satelite" src="./imgs/Ganimedes.jpg"></a><br/><hr/>Calisto<br/><a href="https://es.wikipedia.org/wiki/Calisto_(sat%C3%A9lite)" target="blank"><img id="Satelite" src="./imgs/Calisto.jpg"></a><br/><hr/>Ío<br/><a href="https://es.wikipedia.org/wiki/Ganimedes_(sat%C3%A9lite)" target="blank"><img id="Satelite" src="./imgs/Io.jpg"></a><br/><hr/>Europa<br/><a href="https://es.wikipedia.org/wiki/%C3%8Do_(sat%C3%A9lite)" target="blank"><img id="Satelite" src="./imgs/Europa.jpg"></a></TD> <TD><a type="button" class="btn btn-info" href="https://es.wikipedia.org/wiki/Sol" target="blank">  Júpiter  </button></TD> 
+	</TR>
+	<TR>	
+		<TD><Planeta>Saturno<Planeta></TD> <TD><img src="./imgs/Saturno.jpg"/></TD> <TD>Titán<br/><a href="https://es.wikipedia.org/wiki/Tit%C3%A1n_(sat%C3%A9lite)" target="blank"><img id="Satelite" src="./imgs/Titan.png"></a><br/><hr/>Rea<br/><a href="https://es.wikipedia.org/wiki/Rea_(sat%C3%A9lite)" target="blank"><img id="Satelite" src="./imgs/Rea.jpg"></a></TD> <TD><a type="button" class="btn btn-light" href="https://es.wikipedia.org/wiki/Sol" target="blank">  Saturno  </button></TD> 
+	</TR>
+	<TR>	
+		<TD><Planeta>Urano<Planeta></TD> <TD><img src="./imgs/Urano.jpg"/></TD> <TD>Titania<br/><a href="https://es.wikipedia.org/wiki/Titania_(sat%C3%A9lite)" target="blank"><img id="Satelite" src="./imgs/Titania.jpg"></a><br/><hr/>Oberón<br/><a href="https://es.wikipedia.org/wiki/Ober%C3%B3n_(sat%C3%A9lite)" target="blank"><img id="Satelite" src="./imgs/Oberon.jpg"></a></TD> <TD><a type="button" class="btn btn-dark" href="https://es.wikipedia.org/wiki/Sol" target="blank">   Urano   </button></TD> 
+	</TR>
+	<TR>	
+		<TD><Planeta>Neptuno<Planeta></TD> <TD><img src="./imgs/Neptuno.jpg"/></TD> <TD>Tritón<br/><a href="https://es.wikipedia.org/wiki/Trit%C3%B3n_(sat%C3%A9lite)" target="blank"><img id="Satelite" src="./imgs/Triton.jpg"></a></TD> <TD><a type="button" class="btn btn-link" href="https://es.wikipedia.org/wiki/Sol" target="blank">Neptuno</button></TD> 
+	</TR></Planetas_exteriores>
+</TABLE>
+</div>
+</body>

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Aleo&display=swap');/*font-family: 'Aleo'*/
+@import url('https://fonts.googleapis.com/css?family=Vollkorn+SC&display=swap'); /*font-family: 'Vollkorn SC'*/
+body {
+	background: #e4ebee;
+	font-family: 'Aleo';
+	color: #444;
+	font-size: 1.2rem;
+	line-height: 1.4em;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Vollkorn SC';
+	line-height: 1.3em;
+	font-size: 2rem;
+}
+
+p {
+	margin-bottom: 1.6em;
+}
+
+.container {
+	width: 85%;
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+.header {
+	background: #d6b8ec;
+}

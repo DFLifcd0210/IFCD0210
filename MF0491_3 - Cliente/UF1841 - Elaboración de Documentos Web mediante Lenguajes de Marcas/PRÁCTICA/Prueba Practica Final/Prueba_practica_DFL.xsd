@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- W3C Schema generado con XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Datos_SS">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Estrella"/>
+				<xs:element ref="Planetas_interiores"/>
+				<xs:element ref="Planetas_exteriores"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Estrella">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Sol"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Planeta">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element ref="Satelite" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Planetas_exteriores">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Planeta" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Planetas_interiores">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Planeta" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Satelite">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Calisto"/>
+				<xs:enumeration value="Europa"/>
+				<xs:enumeration value="Ganímedes"/>
+				<xs:enumeration value="Io"/>
+				<xs:enumeration value="Luna"/>
+				<xs:enumeration value="Oberón"/>
+				<xs:enumeration value="Rea"/>
+				<xs:enumeration value="Titania"/>
+				<xs:enumeration value="Titán"/>
+				<xs:enumeration value="Tritón"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>
